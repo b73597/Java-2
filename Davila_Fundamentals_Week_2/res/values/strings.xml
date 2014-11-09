@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">EDavila\'s Top Recipes</string>
+    <string name="str_choice_title">Load..</string>
+
+    <string-array name="array_lp_entries">
+        <item>CACHE</item>
+        <item>API</item>
+    </string-array>
+    <string-array name="array_lp_entry_values">
+        <item>CACHE</item>
+        <item>API</item>
+    </string-array>
+</resources>
