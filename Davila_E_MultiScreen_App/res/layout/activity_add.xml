@@ -1,0 +1,40 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.davila_multi_screen_application.AddActivity"
+    tools:ignore="MergeRootFrame" >
+
+<!--     <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1" > -->
+
+        <fragment
+            android:id="@+id/fragmentAdd"
+            android:name="com.example.davila_multi_screen_application.AddFragment"
+            android:layout_height="409dp"
+            android:layout_width="fill_parent"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="0" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="140dp"
+            android:layout_column="0"
+            android:layout_gravity="left|bottom"
+            android:layout_row="0"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/listButton"
+            android:layout_width="127dp"
+            android:layout_column="0"
+            android:layout_gravity="right|bottom"
+            android:layout_row="0"
+            android:text="List" />
+    </GridLayout>
+
+<!-- </FrameLayout> -->
