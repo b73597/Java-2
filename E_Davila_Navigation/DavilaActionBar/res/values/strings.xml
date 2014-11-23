@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DavillaActionBar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_add">Add</string>
+    <string name="string_list">List</string>
+    <string name="string_addData">Add Data</string>
+    <string name="string_sampleImage">Sample Image</string>
+    <string name="string_clear">Clear</string>
+
+</resources>

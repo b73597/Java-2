@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference 
+	    android:key="SHARED_VALUE"
+	    android:entries="@array/array_lp_entries"
+	    android:entryValues="@array/array_lp_entry_values"
+	    android:title="@string/str_choice_title"
+	 /> 
+</PreferenceScreen>

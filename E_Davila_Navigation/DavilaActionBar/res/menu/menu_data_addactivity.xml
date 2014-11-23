@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.davilla.actionbarexample" >
+
+    <item
+        android:id="@+id/item_addData"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="always"
+        android:title="@string/string_addData"
+        android:titleCondensed="@string/string_addData">
+    </item>
+    <item
+        android:id="@+id/item_list"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:showAsAction="always"
+        android:title="@string/string_list"
+        android:titleCondensed="@string/string_list">
+    </item>
+    <item
+        android:id="@+id/item_clear"
+        android:icon="@android:drawable/ic_notification_clear_all"
+        android:showAsAction="never"
+        android:title="@string/string_clear"
+        android:titleCondensed="@string/string_clear">
+    </item>
+
+</menu>

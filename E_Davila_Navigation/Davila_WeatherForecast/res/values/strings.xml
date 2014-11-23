@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">EDavila Forecast</string>
+    <string name="str_choice_title">Click here to choose type</string>
+
+    <string-array name="array_lp_entries">
+        <item>HOURLY</item>
+        <item>DAILY</item>
+    </string-array>
+    <string-array name="array_lp_entry_values">
+        <item>HOURLY</item>
+        <item>DAILY</item>
+    </string-array>
+
+    <string name="string_enterLocation">Enter Location</string>
+
+</resources>
